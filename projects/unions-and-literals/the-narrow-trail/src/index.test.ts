@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, jest, test } from "@jest/globals";
 
 import * as index from "./index";
+import * as tmp from "./tmp";
 import * as solution from "./solution";
 
 const { runCommands } = process.env.TEST_SOLUTIONS ? solution : index;
